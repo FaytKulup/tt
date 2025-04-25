@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendTalker - Yapay Zeka Destekli Video İçerik Üretim Sistemi</title>
+    <meta name="description" content="TrendTalker ile otomatik spor ve gündem video üretimi – WiroAI Qwen 2.5 ile metin, Coqui XTTS_v2 ile ses, SadTalker ile animasyon, SofaScore istatistikleri.">
+    <meta name="author" content="TrendTalker Ekibi">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+</head>
+<body>
+    <header>
+        <div class="container header-inner">
+            <div class="logo">
+                <img src="logo.png" alt="TrendTalker Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Anasayfa</a></li>
+                    <li><a href="#about">Hakkımızda</a></li>
+                    <li><a href="#features">Özellikler</a></li>
+                    <li><a href="#tech">Teknoloji</a></li>
+                    <li><a href="#workflow">İş Akışı</a></li>
+                    <li><a href="#team">Ekibimiz</a></li>
+                    <li><a href="#videos">Videolar</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <h1>TrendTalker</h1>
+                <p class="tagline">Yapay Zeka Destekli Video İçerik Üretim Sistemi</p>
+                <p class="description">Gündem ve spor odaklı otomatik video içerik üretimi ile içerik yaratma süreçlerinizi devrimleştirin!</p>
+                <div class="cta-buttons">
+                    <a href="#features" class="btn primary-btn">Keşfedin</a>
+                    <a href="#about" class="btn secondary-btn">Daha Fazla</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 data-aos="fade-up">Projemiz Hakkında</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-up" data-aos-delay="100">
+                    <p>TrendTalker, gündem ve spor odaklı, yapay zeka destekli bir video içerik üretim sistemidir. Projemiz, içerik üreticilerinin karşılaştığı zorluklara yenilikçi bir çözüm sunmayı hedeflemektedir.</p>
+                    <p>Tekrarlayan ve zaman alıcı görevlerin yükünü azaltan modelimiz, içerik üretim süreçlerini otomatikleştirerek hem hız hem de verimlilik sağlamaktadır. Bu yaklaşım, içerik üretimini daha sistematik bir hale getirirken, aynı zamanda çeşitli ve yüksek kaliteli içeriklerin ortaya çıkmasına olanak tanımaktadır.</p>
+                </div>
+                <div class="about-stats" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-item">
+                        <div class="stat-value"><span class="counter" data-target="100">0</span>%</div>
+                        <div class="stat-label">Otomatik Üretim</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value"><span class="counter" data-target="85">0</span>%</div>
+                        <div class="stat-label">Zaman Tasarrufu</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value"><span class="counter" data-target="7">0</span>/24</div>
+                        <div class="stat-label">İçerik Akışı</div>                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 data-aos="fade-up">Özellikler</h2>
+            <div class="feature-cards">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-robot"></i>
+                    <h3>Gelişmiş LLM</h3>
+                    <p>Fine-tune edilmiş WiroAI Qwen 2.5 7B Turkish Instruct ile Türkçe metin üretimi</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-microphone-alt"></i>
+                    <h3>Otomatik Seslendirme</h3>
+                    <p>Coqui TTS XTTS_v2 modeliyle doğal ve akıcı ses üretimi</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-smile-beam"></i>
+                    <h3>Animasyonlu Yüz</h3>
+                    <p>SadTalker ile ses–görsel senkronizasyonlu yüz animasyonları</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Spor İstatistikleri</h3>
+                    <p>SofaScore’dan gerçek zamanlı maç verileri</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="youtube-icon"></div>
+                    <h3>YouTube Entegrasyonu</h3>
+                    <p>Üretilen videoların YouTube Data API ile otomatik yüklemesi</p>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech" class="features">
+        <div class="container">
+            <h2 data-aos="fade-up">Kullanılan Teknolojiler</h2>
+            <ul class="tech-list" data-aos="fade-up" data-aos-delay="100">
+                <li>WiroAI Qwen 2.5 7B Turkish Instruct (LLM)</li>
+                <li>Coqui TTS XTTS_v2 (Text-to-Speech)</li>
+                <li>SadTalker (Animasyon)</li>
+                <li>SofaScore Scraper (Veri Toplama)</li>
+                <li>FFmpeg (Video Montajı)</li>
+                <li>YouTube Data API (Yükleme)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="workflow" class="workflow">
+        <div class="container">
+            <h2 data-aos="fade-up">İş Akışı</h2>
+            <div class="workflow-list" data-aos="fade-up" data-aos-delay="100">
+                <div class="workflow-item">
+                    <div class="workflow-icon"><i class="fas fa-database"></i></div>
+                    <div class="workflow-text">
+                        <h3>Veri Toplama</h3>
+                        <p>SofaScore’dan otomatik maç ve istatistik verilerinin alınması</p>
+                    </div>
+                </div>
+                <div class="workflow-item">
+                    <div class="workflow-icon"><i class="fas fa-brain"></i></div>
+                    <div class="workflow-text">
+                        <h3>Metin Üretimi</h3>
+                        <p>Fine-tune edilmiş WiroAI Qwen 2.5 modeli ile yorum metni oluşturma</p>
+                    </div>
+                </div>
+                <div class="workflow-item">
+                    <div class="workflow-icon"><i class="fas fa-volume-up"></i></div>
+                    <div class="workflow-text">
+                        <h3>Seslendirme</h3>
+                        <p>Coqui XTTS_v2 ile metni doğala yakın bir sese çevirme</p>
+                    </div>
+                </div>
+                <div class="workflow-item">
+                    <div class="workflow-icon"><i class="fas fa-smile"></i></div>
+                    <div class="workflow-text">
+                        <h3>Animasyon</h3>
+                        <p>SadTalker ile sesle senkronize yüz animasyonları üretme</p>
+                    </div>
+                </div>
+                <div class="workflow-item">
+                    <div class="workflow-icon"><i class="fas fa-film"></i></div>
+                    <div class="workflow-text">
+                        <h3>Video Birleştirme</h3>
+                        <p>FFmpeg ile ses, animasyon ve altyazıyı birleştirme</p>
+                    </div>
+                </div>
+                <div class="workflow-item">
+                    <div class="workflow-icon"><i class="fas fa-upload"></i></div>
+                    <div class="workflow-text">
+                        <h3>Yükleme</h3>
+                        <p>YouTube Data API ile üretilen videoyu otomatik yayınlama</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <div class="container">
+            <h2 data-aos="fade-up">Ekibimiz</h2>
+            <div class="team-members" data-aos="fade-up" data-aos-delay="100">
+                <div class="team-member">
+                    <img src="images/sedat.jpg" alt="Cemil Sedat ATMACA" class="member-photo">
+                    <h3>Cemil Sedat ATMACA</h3>
+                    <p>Takım Lideri</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/oguzhan.jpg" alt="Oğuzhan KILINÇ" class="member-photo">
+                    <h3>Oğuzhan KILINÇ</h3>
+                </div>
+                <div class="team-member">
+                    <img src="images/akin.jpg" alt="Akın KIRIMLI" class="member-photo">
+                    <h3>Akın KIRIMLI</h3>
+                </div>
+                <div class="team-member">
+                    <img src="images/baturay.jpg" alt="Baturay ÇELİK" class="member-photo">
+                    <h3>Baturay ÇELİK</h3>
+                </div>
+                <div class="team-member">
+                    <img src="images/fatmanur.jpg" alt="Fatma Nur EROĞLU" class="member-photo">
+                    <h3>Fatma Nur EROĞLU</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="videos" class="videos">
+        <div class="container">
+          <h2 data-aos="fade-up">Örnek Videolar</h2>
+          <div class="video-grid" data-aos="fade-up" data-aos-delay="100">
+            <div class="video-item">
+                <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/RQ6JYCpWWfI"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video-item">
+                <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/yap_XehorG0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+                </iframe>
+            </div>
+            <!-- daha fazla <div class="video-item"> ekleme yeri -->
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2 data-aos="fade-up">İletişim</h2>
+          <div class="contact-info" data-aos="fade-up" data-aos-delay="100">
+            
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <p>faytkulupbitirme@gmail.com</p>
+            </div>
+      
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p style="text-align: center;">
+                TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ, ANKARA<br>
+              </p>
+            </div>
+      
+            <div class="social-media">
+              <a href="https://youtube.com/@trend-talker?si=GgmcjF2iBnuWCTby" target="_blank"><i class="fab fa-youtube"></i></a>  
+              <a href="https://github.com/Fayt-Kulup" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="mailto:faytkulupbitirme@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 TrendTalker - Tüm Hakları Saklıdır</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            AOS.init({ duration: 800, once: true });
+
+            // Counter
+            document.querySelectorAll('.counter').forEach(counter => {
+                const update = () => {
+                    const target = +counter.dataset.target;
+                    const count = +counter.innerText;
+                    const inc = Math.ceil(target / 200);
+                    if (count < target) {
+                        counter.innerText = count + inc;
+                        setTimeout(update, 1);
+                    } else counter.innerText = target;
+                };
+                counter.innerText = '0';
+                update();
+            });
+
+            // Smooth scroll
+            document.querySelectorAll('a[href^="#"]').forEach(a => {
+                a.addEventListener('click', e => {
+                    e.preventDefault();
+                    document.querySelector(a.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+                });
+            });
+
+            // Mobile menu
+            const btn = document.querySelector('.mobile-menu-btn');
+            const nav = document.querySelector('nav');
+            btn.addEventListener('click', () => {
+                nav.classList.toggle('active');
+                btn.querySelector('i').classList.toggle('fa-bars');
+                btn.querySelector('i').classList.toggle('fa-times');
+            });
+
+            // Header on scroll
+            const header = document.querySelector('header');
+            window.addEventListener('scroll', () => {
+                header.classList.toggle('scrolled', window.scrollY > 50);
+            });
+        });
+    </script>
+</body>
+</html>
